@@ -10,14 +10,9 @@ body {
 }
 
 .container {
-  width: 100%;
+  max-width: 65rem;
   display: flex;
-  flex-direction: row;
-  padding: 0 3rem 3rem 0;
-}
-
-.right-side {
-  width: 60%;
+  margin: auto;
 }
 
 header {
@@ -29,17 +24,16 @@ header {
 
 .head-title {
   font-family: Papyrus;
-  margin: 0 0 0 10rem;
-  padding-top: .75rem;
+  padding-top: 1rem;
+  margin: 0;
 }
 
 
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 25%;
-  margin: 2rem 2rem 0 10rem;
-  padding: 0;
+  padding: 2rem 2rem 0 0;
+  margin: 0;
 }
 .sidebar-img {
   border-radius: 2%;
@@ -77,10 +71,10 @@ header {
   border-bottom: solid black 2px;
   font-family: fantasy;
 }
-.main-content {
-  display: flex;
-  flex-direction: column;
-}
+// .main-content {
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .charTiles {
   display: flex;
