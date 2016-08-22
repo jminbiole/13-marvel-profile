@@ -1,16 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>13-Marvel-Profile</title>
-  <link rel="stylesheet" href="/app.css">
+    <meta charset="utf-8">
+    <title>13-Marvel-Profile</title>
+    <link rel="stylesheet" href="/app.css">
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <h1 class="head-title">Marvel</h1>
+        </div>
+    </header>
 
-  <script src="/vendor.js" charset="utf-8"></script>
-  <script src="/app.js" charset="utf-8"></script>
+    <div class="main-content">
+        <div class="container">
+            <div class="sidebar">
+                <div class="frame__large">
+                  <img src="" alt="" class="sidebar-img">
+                </div>
+                <h1 class="sidebar-title">Spider-Girl (2010-2011)</h1>
+                <p class="sidebar-date">2010-2011</p>
+                <h2 class="title">Creators</h2>
+                <ul class="creators-names">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
 
-  <script type="text/javascript">
-  </script>
+
+            <div class="comic-content">
+                <div class="charDiv">
+                    <h1 class="title">Characters</h1>
+                    <div class="charTiles">
+                        <div class="tiles">
+                            <div class="frame__small">
+                              <img src="" alt="" class="tile-pic">
+                            </div>
+                            <p class="charName">Red Hulk</p>
+                        </div>
+                        <div class="tiles">
+                            <div class="frame__small">
+                              <img src="" alt="" class="tile-pic">
+                            </div>
+                            <p class="charName">Spider-Girl (Anya Corazon)</p>
+                        </div>
+                        <div class="tiles">
+                            <div class="frame__small">
+                              <img src="" alt="" class="tile-pic">
+                            </div>
+                            <p class="charName">Spider-Girl (MayParker)</p>
+                        </div>
+                        <div class="tiles">
+                            <div class="frame__small">
+                              <img src="" alt="" class="tile-pic">
+                            </div>
+                            <p class="charName">Spider-Man</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comicDiv">
+                    <h1 class="title">Comics<h1>
+                    <div class="comicTiles">
+                        <div class="comic-tile">
+                            <div class="frame__small">
+                              <img class="tile-pic" src="" alt="">
+                            </div>
+                            <p class="comic-number">#8</p>
+                            <p class="issue">Spider-Girl (2010) #8</p>
+                            <button class="read">Read More</button>
+                        </div>
+                        <div class="comic-tile">
+                            <div class="frame__small">
+                              <img class="tile-pic" src="" alt="">
+                            </div>
+                            <p class="comic-number">#7</p>
+                            <p class="issue">Spider-Girl (2010) #7</p>
+                            <button class="read">Read More</button>
+                        </div>
+                        <div class="comic-tile">
+                            <div class="frame__small">
+                              <img class="tile-pic" src="" alt="">
+                            </div>
+                            <p class="comic-number">#6</p>
+                            <p class="issue">Spider-Girl (2010) #6</p>
+                            <button class="read">Read More</button>
+                        </div>
+                        <div class="comic-tile">
+                            <div class="frame__small">
+                              <img class="tile-pic" src="" alt="">
+                            </div>
+                            <p class="comic-number">#5</p>
+                            <p class="issue">Spider-Girl (2010) #5</p>
+                            <button class="read">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/vendor.js" charset="utf-8"></script>
+    <script src="/app.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    var App = require('index');
+    var appEl = document.querySelector('.main-content');
+    var marvel = new App(appEl);
+
+    </script>
 </body>
+
 </html>

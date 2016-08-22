@@ -2,5 +2,134 @@
 // @import 'normalize';
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+@import 'font-awesome';
 @import 'box-sizing';
+
+body {
+  margin: 0;
+}
+.main-content {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 65rem;
+  display: flex;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+header {
+  background: #2c3e50;
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+
+.head-title {
+  font-family: Papyrus;
+  margin: 0;
+}
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.frame__large {
+  width: 100%;
+  height: 100%;
+}
+.sidebar-img {
+  border-radius: 2%;
+  // width: 100%;
+  // height: auto;
+}
+.sidebar-title {
+  font-family: Verdana;
+  font-size: 1.3rem;
+}
+.sidebar-date {
+  font-family: Verdana;
+  font-size: 1rem;
+}
+
+.creators-names {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  width: 100%;
+  margin: 0 0 1rem 0;
+  border-bottom: solid black 2px;
+  font-family: fantasy;
+  vertical-align: bottom;
+
+}
+.comic-content {
+  margin-left: 1rem;
+}
+
+.charTiles {
+  display: flex;
+  align-content: space-around;
+  margin-top: 2rem;
+}
+
+.charName {
+  font-size: 1.3rem;
+
+  width: 75%;
+}
+
+.tiles {
+  flex-direction: column;
+  width: 20%;
+  margin: 0 1rem 0 0;
+}
+.frame__small {
+  width: 100%;
+
+}
+.tile-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+}
+
+.comicTiles {
+  display: flex;
+  align-content: space-around;
+  margin-top: 2rem;
+}
+.comicDiv {
+  width: 100%;
+
+}
+.comic-tile {
+  flex-direction: column;
+  padding: .5rem;
+}
+
+.comic-number {
+  font-size: 1.2rem;
+}
+
+.issue {
+  margin: 0;
+}
+
+.read {
+  background: #2c3e50;
+  border-radius: 9%;
+  border: #2a3c4e solid 1px;
+  color: #fff;
+  width: 100%;
+  padding: .4rem;
+
+}
