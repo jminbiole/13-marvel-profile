@@ -1,5 +1,5 @@
 'use strict';
-@import Character from 'character';
+import Character from 'character';
 
 export default class CharacterList {
   constructor(element, data) {
